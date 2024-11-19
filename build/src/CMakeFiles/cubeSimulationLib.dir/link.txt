@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcubeSimulationLib.a CMakeFiles/cubeSimulationLib.dir/DetectorConstruction.cc.o CMakeFiles/cubeSimulationLib.dir/PrimaryGeneratorAction.cc.o CMakeFiles/cubeSimulationLib.dir/RunAction.cc.o CMakeFiles/cubeSimulationLib.dir/EventAction.cc.o CMakeFiles/cubeSimulationLib.dir/SteppingAction.cc.o
+/usr/bin/ranlib libcubeSimulationLib.a

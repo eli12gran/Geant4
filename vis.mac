@@ -1,0 +1,4 @@
+/vis/open OGL
+/vis/viewer/set/viewpointThetaPhi 90 0
+/vis/drawVolume
+

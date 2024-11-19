@@ -1,0 +1,11 @@
+# init_vis.mac
+
+# Use OpenGL as the visualizer
+/control/verbose 1
+/control/saveHistory
+/run/verbose 1
+
+
+/run/initialize
+
+/control/execute vis.mac

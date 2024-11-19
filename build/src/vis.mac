@@ -1,0 +1,9 @@
+/vis/open OGL  # OpenGL visualization
+/vis/viewer/set/viewpointThetaPhi 90 0  # Adjust viewpoint
+/vis/viewer/zoom 0.1  # Zoom out
+/vis/drawVolume  # Draw geometry
+/vis/scene/add/trajectories smooth  # Smooth trajectories
+/vis/modeling/trajectories/create/drawByCharge  # Draw trajectories by charge
+/tracking/storeTrajectory 1  # Store trajectories
+/vis/scene/endOfEventAction accumulate  # Accumulate events for viewing
+/vis/viewer/flush  # Flush the viewer after the events

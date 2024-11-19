@@ -1,0 +1,31 @@
+/run/verbose 2
+/run/initialize
+/control/execute vis.mac
+/vis/open OGL
+/vis/sceneHandler/create OGL
+/vis/viewer/create ! ! 600x600-0+0
+/vis/viewer/refresh
+/vis/viewer/set/viewpointThetaPhi 90 0
+/vis/viewer/zoom 0.1
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
+/vis/sceneHandler/attach
+/vis/scene/add/trajectories smooth
+/tracking/storeTrajectory 2
+/vis/scene/notifyHandlers
+/vis/modeling/trajectories/create/drawByCharge
+/tracking/storeTrajectory 1
+/vis/scene/endOfEventAction accumulate
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/run/beamOn 1
+/vis/scene/notifyHandlers scene-0
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
