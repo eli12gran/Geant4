@@ -3,6 +3,8 @@
 
 Here you will find the files and all information related to the Geant4 simulation created by Elizabeth Granda, a Scientific Computing student, for the final exam of the Simulation of Complex Systems course in the second half of 2024. This simulation focuses on the construction of a muon detector for volcano tomography.
 
+[Link de la presentación en Canva](https://www.canva.com/design/DAGW4CJ7gSg/CJsNtLANxw6dSrHOeNcrtg/edit?utm_content=DAGW4CJ7gSg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## **Inspiration: Why are we building a muhon detector?!**
 
 ### **Why is Volcano Tomography Important?**
