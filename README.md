@@ -38,12 +38,12 @@ Simulating detectors in Geant4 allows researchers to optimize their design, impr
 
 For this project, a muon detector was constructed with the following shape:
 
-[Cubo Centellador](images/cubo_centellador.jpg)
+![Cubo Centellador](images/cubo_centellador.jpg)
 
 The inspiration for the shape of this detector comes from [here](https://ep-news.web.cern.ch/content/revolutionizing-particle-detection-3d-printed-scintillating-detectors-tracking-and) where the text explains why this kind of detectors are being used a lot nowadays.
 
 This detector consists of a 50x50 cm cube made of scintillating material. Inside this cube, there is a 5x5x5 grid of smaller cubes, also made of scintillating material. The muon source is located 10 meters away from the detector. The surrounding environment is modeled as "galactic" material, as defined in the Geant4 simulation examples. Muons are emitted towards the cube composed of smaller scintillating cubes, resulting in a simulation as shown below:
 
-[Simulacion Eliza](images/simulacion_eli.jpg)
+![Simulacion Eliza](images/simulacion_eli.jpg)
 
 The final part of the project aimed to record the deposited energy and display it on the screen, as well as save it to a .csv file. However, this functionality was not achieved. The code snippets intended for this purpose are included, as they do not produce any errors but fail to save the data.
