@@ -10,20 +10,19 @@
 
 ActionInitialization::ActionInitialization()
 : G4VUserActionInitialization(),
-  fRunAction(nullptr),  // Initialize pointer to RunAction as nullptr
-  fEventAction(nullptr), // Initialize pointer to EventAction as nullptr
-  fPrimaryGeneratorAction(nullptr) // Initialize pointer to PrimaryGeneratorAction as nullptr
+  fRunAction(nullptr),    
+  fEventAction(nullptr), 
+  fPrimaryGeneratorAction(nullptr) 
 { }
 
-// Destructor for the ActionInitialization class
+
 ActionInitialization::~ActionInitialization() {}
 
 // This method is called when the master thread is initialized in a multi-threaded simulation.
 // It defines actions to be used by the master thread (e.g., collecting and merging data 
 // from worker threads).
 void ActionInitialization::BuildForMaster() const {
-  // Assign RunAction to the master thread
-  SetUserAction(new RunAction);
+    SetUserAction(new RunAction);
 }
 
 // This method is called for each worker thread and for sequential runs.
